@@ -3,10 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Julie Gran Portfolio-Bootstrap Edition</title>
   <!-- Comment out each stylesheet to get the one you'd like to see -->
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   
@@ -15,9 +16,13 @@
 <body>
     <div class="header-wrapper">
       <!-- <div class="d-flex justify-content-between"> -->
+      <div id = "header">
       <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff;">
-          <h1>Julie Gran</h1>
+        <div id="name">
+            <h1>Julie Gran</h1>
+        </div>
           <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <div id="links"></div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -37,49 +42,64 @@
               </li> -->
             </ul>
           </div>
-        </nav>
-        <!-- </div> -->
-    </div>
+        </div><!--Links container-->
+      </nav>
+      </div><!--end header-->
+    </div><!--end header-wrapper-->
                 
-
-    <div class="container">
-
-        <div class="row justify-content-md-center" ><!--Main Section-->
+    <div class = "content">
+    <!-- <div class="content with-margin"> -->
+      <div class="container">
+      <!-- <div class = "content"> -->
+        <div id="aboutme-wrapper">
+          
+            <div class="row justify-content-md-center"><!--Main Section-->
+          <!-- <div id="aboutme-wrapper"> -->
            </div class = row><!--About Me Section-->
               <div class ="col-12">
-                <h3>Portfolio</h3>
+                <h2>Portfolio</h2>
                 <hr>
               </div>
             <div class = row>
               <div class = "col-2">
-                  <image src = "assets/images/mypic.jfif" class="img-fluid" width="200px" height="150px" alt="project picture"></image>
+                  <div class="content with-margin">
+                  <image src = "assets/images/mypic.jfif" class="img-fluid" width="200px" height="200px" alt="pic"></image>
+                </div> <!--Margin div-->
               </div>
-              <div class = "col-10">
-                  <p>
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                  </p>
-              </div>
-            
-          </div><!--End About Me Section-->
 
-            
+              <div class = "col-10"><!--about me text-->
+                  <!-- <div class="content with-margin"> -->
+                    <p>
+                        Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force. I can't get involved! I've got work to do! It's not that I like the Empire, I hate it, but there's nothing I can do about it right now. It's such a long way from here.
+                        Ye-ha! Kid, I've flown from one side of this galaxy to the other. I've seen a lot of strange stuff, but I've never seen anything to make me believe there's one all-powerful Force controlling everything. There's no mystical energy field that controls my destiny. It's all a lot of simple tricks and nonsense
+                      </p>
+                    <p>
+                        What!? But with the blast shield down, I can't even see! How am I supposed to fight? Kid, I've flown from one side of this galaxy to the other. I've seen a lot of strange stuff, but I've never seen anything to make me believe there's one all-powerful Force controlling everything. There's no mystical energy field that controls my destiny. It's all a lot of simple tricks and nonsense. 
+                    </p>
+                  </div><!--Margin div-->
+              </div> <!--about me text end col-->
+            </div><!--??-->
+          </div><!--End About Me wrapper-->
+        </div><!--End About Me Section-->
+      <!-- </div> -->
+     </div><!--End Main Section-->
 
-
-        </div><!--End Main Section-->
-    </div><!--End Main Section-->
         
-    <!-- Begin Footer Row-->
-    <div class="row justify-content-md-center" style="background-color: #4aaaa5;">
-      <div class="footer">
-        <div class ="col-12">
-              <p class="text-center" style= "color:white;">&copy;Copyright 2019 Julie Gran</p>
-          </div>
-      </div>
-    </div> <!--End Footer Row-->
+        <!-- Begin Footer Row-->
+        <div class="footer">
+          <div class="row justify-content-md-center" style="background-color: #666666;">
+            <!-- <div class="footer"> -->
+              <div class ="col-12">
+                    <p class="text-center" style= "color:white;">&copy;Copyright 2019 Julie Gran</p>
+                </div>
+            <!-- </div> -->
+        </div><!--End footer-->
+        </div> <!--End Footer Row-->
 
- </div><!--End Container-->
+     </div><!--End Container-->
 
-
+        
+      
     
       </div>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
