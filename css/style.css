@@ -9,6 +9,7 @@
 
   .header-wrapper{
     border-bottom: 1px solid #777777;
+    scroll-margin-bottom: 0px;
   }
 
   #header{
@@ -29,14 +30,29 @@
   }
   
   .content{
-    background: url(../assets/images/regal.png)
-  
+    background: url(../assets/images/regal.png);
+    padding-bottom: 100px;
+    padding-top: 30px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   }
 
   .navbarNav {
       display: flex;
       align-content: space-between;
   }
+
+  .form-group{
+    width: 960px;
+  }
+
+  button[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+ 
 
   .footer{
     /* background: #666666; */
@@ -55,6 +71,7 @@
     flex-wrap: wrap;
     align-items: flex-start;
     flex-direction: row;
+    padding-left: 20px;
     /* width: 500px;  */
     /* border-color: lime; */
     }
@@ -75,7 +92,7 @@
   
   .grid img {
     margin-top: 8px;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     /* width: 100%; */
     max-width: 200px;
     max-height: 150px;
@@ -116,3 +133,10 @@
   .with-margin {
     margin-bottom: 20px;
   }
+
+  @media screen and (min-width: 400px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color: #333;
+    }
+ 
