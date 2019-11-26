@@ -8,3 +8,4 @@ Now I am using Boostrap to create a responsive version of the site with no media
 * I made a sticky footer
 * Used Bootstrap navbar
 * Used Responsive Images
+* Added previously missing banners to the portfolio page
