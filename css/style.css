@@ -3,6 +3,7 @@
 .container{
   margin: 0 auto;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
 }
 
 h3{
@@ -42,15 +43,18 @@ h3{
   
   .content{
     background: url(../assets/images/regal.png);
-    padding-bottom: 100px;
-    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-top: 90px;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    min-height: 80vh;
   }
 
   .navbarNav {
       display: flex;
       align-content: space-between;
   }
+
+ 
 
   
   .form-group{
@@ -93,6 +97,18 @@ h3{
     /* border-color: lime; */
     }
   
+    .grid p{
+      position: absolute;
+      /* text-align: center; */
+      position: absolute;
+      top: 70%;
+      /* left: 35%;  */
+      /* transform: translate(-50%, -50%); */
+      color: white;
+      background: #aa4a85;
+      width: 200px;
+      height: 30px;
+    }
 
   /* #grid .row {
     display: flex;
