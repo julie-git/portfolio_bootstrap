@@ -58,7 +58,7 @@ h3{
 
   
   .form-group{
-    width: 960px;
+    width: 920px;
     padding: 10px;
   }
 
@@ -68,6 +68,7 @@ h3{
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    margin-left: 20px;
   }
  
 
