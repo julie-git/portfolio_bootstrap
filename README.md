@@ -1,6 +1,6 @@
 # portfolio_bootstrap
 <h1>Student Portfolio Bootstrap Edition<h1>
-This is a recreation of the original Student Portolio site that was written with HTML and vanilla CSS.
+This is a revision of the original Student Portolio site that was written with HTML and vanilla CSS.
 Now I am using Boostrap to create a responsive version of the site with no media.
 
 * I created a responsive layouts with Bootstrap Grid
